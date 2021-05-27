@@ -8,6 +8,7 @@ authors = ["Kyle Asano <kasano@users.noreply.github.com>"]
 python = "^3.8"
 jupyter = "^1.0.0"
 plotly = "^4.14.3"
+pandas = "^1.2.4"
 
 [tool.poetry.dev-dependencies]
 

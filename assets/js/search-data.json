@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Title",
-            "content": "import plotly.express as px, plotly.io as pio pio.renderers.default = &#39;iframe&#39; . . df = px.data.iris() . . fig = px.scatter_3d( data_frame=df, x=&#39;sepal_length&#39;, y=&#39;sepal_width&#39;, z=&#39;petal_width&#39;, color=&#39;petal_length&#39;, size=&#39;petal_length&#39;, size_max=18, symbol=&#39;species&#39;, opacity=0.7 ) # tight layout fig.update_layout(margin=dict(l=0, r=0, b=0, t=0)) fig.show() . .",
+            "content": "import plotly.express as px, plotly.io as pio pio.renderers.default = &#39;browser&#39; . . df = px.data.iris() . . fig = px.scatter_3d( data_frame=df, x=&#39;sepal_length&#39;, y=&#39;sepal_width&#39;, z=&#39;petal_width&#39;, color=&#39;petal_length&#39;, size=&#39;petal_length&#39;, size_max=18, symbol=&#39;species&#39;, opacity=0.7 ) # tight layout fig.update_layout(margin=dict(l=0, r=0, b=0, t=0)) fig.show() . .",
             "url": "https://kasano.github.io/xgboost_causalml_discovery/2021/05/25/plotly-3d.html",
             "relUrl": "/2021/05/25/plotly-3d.html",
             "date": " • May 25, 2021"

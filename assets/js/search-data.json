@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Title",
-            "content": "toc: false | badges: false | comments: true | categories: [jupyter, plotly] | . import plotly.express as px from IPython.display import HTML . gapminder = px.data.gapminder() . fig = px.violin( gapminder, x=&quot;continent&quot;, y=&quot;lifeExp&quot;, color=&quot;continent&quot;, labels={&quot;lifeExp&quot;: &quot;life expectancy at birth&quot;}, ) fig.update_layout(showlegend=False) #fig.show() HTML(fig.to_html()) . . .",
+            "content": "toc: false | badges: false | comments: true | categories: [jupyter, plotly] | . import plotly.express as px from IPython.display import HTML . . df_gapminder = px.data.gapminder() df_iris = px.data.iris() df_tips = px.data.tips() . . fig = px.violin( df_gapminder, x=&quot;continent&quot;, y=&quot;lifeExp&quot;, color=&quot;continent&quot;, labels={&quot;lifeExp&quot;: &quot;life expectancy at birth&quot;}, ) fig.update_layout(showlegend=False) HTML(fig.to_html()) . . . . . fig = px.scatter_3d( df_iris, x=&#39;sepal_length&#39;, y=&#39;sepal_width&#39;, z=&#39;petal_width&#39;, color=&#39;petal_length&#39;, size=&#39;petal_length&#39;, size_max=18, symbol=&#39;species&#39;, opacity=0.7 ) fig.update_layout(margin=dict(l=0, r=0, b=0, t=0)) HTML(fig.to_html()) . . . . . fig = px.scatter( df_tips, x=&quot;total_bill&quot;, y=&quot;tip&quot;, color=&quot;sex&quot;, facet_col=&quot;day&quot;, marginal_x=&quot;box&quot; ) HTML(fig.to_html()) . . . .",
             "url": "https://kasano.github.io/xgboost_causalml_discovery/2021/05/25/plotly-3d.html",
             "relUrl": "/2021/05/25/plotly-3d.html",
             "date": " • May 25, 2021"
